@@ -9,3 +9,5 @@ Prototype of a TripleO [Split Controlplane](https://specs.openstack.org/openstac
 3. Deploy an "external" compute node with a separate heat stack [deploy-compute.sh](deploy-compute.sh)
 
 Based [examples](https://review.openstack.org/#/q/topic:compute_only_stack2+(status:open+OR+status:merged)) from shardy.
+
+One could then simulate distance between the controller and compute using the [tripleo-latency-injector](https://github.com/mbaldessari/tripleo-latency-injector).
